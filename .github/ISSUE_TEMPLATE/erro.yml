@@ -1,0 +1,39 @@
+name: Relatar um erro
+description: Algo não funcionou como devia.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar. Não coloque nada pessoal aqui: nome, e-mail, senha, chave ou caminho de pasta com o seu nome de usuário.
+  - type: textarea
+    id: o-que-aconteceu
+    attributes:
+      label: O que aconteceu
+      description: O que você fez, o que esperava e o que apareceu. Se tiver mensagem de erro, cole aqui.
+    validations:
+      required: true
+  - type: textarea
+    id: como-repetir
+    attributes:
+      label: Como repetir
+      description: O passo a passo para o erro aparecer de novo, se você souber.
+      placeholder: |
+        1. Abri...
+        2. Cliquei em...
+        3. Apareceu...
+  - type: input
+    id: versao
+    attributes:
+      label: Versão
+      description: Em geral aparece nas Configurações ou no nome do arquivo que você baixou.
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema
+      placeholder: Windows 11, macOS 14...
+  - type: textarea
+    id: mais
+    attributes:
+      label: Mais alguma coisa
+      description: Print, vídeo curto ou qualquer detalhe que ajude.
