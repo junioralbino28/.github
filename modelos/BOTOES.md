@@ -1,6 +1,6 @@
 # Botões de retorno dentro do app
 
-Todo projeto com interface (app, site, editor) ganha três atalhos que abrem o navegador. O lugar preferido é **fixo e sempre à vista**, por exemplo na lateral do menu, com um título curto como "Gostou do …?". Escondido no fim das configurações quase ninguém acha. Se a janela ficar baixa demais, o bloco pode sumir, mas não pode apertar o resto.
+Todo projeto com interface (app, site, editor) ganha três atalhos que abrem o navegador. O lugar preferido é **fixo e sempre à vista**: na lateral do menu, num canto ou na barra de cima, com um título curto como "Gostou do …?". Escondido no fim das configurações quase ninguém acha. Se a janela ficar baixa demais, o bloco pode sumir, mas não pode apertar o resto.
 
 | Botão | Abre |
 |---|---|
